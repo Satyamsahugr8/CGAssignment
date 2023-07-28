@@ -1,0 +1,18 @@
+    Algorithm for Pascal's Triangle 
+	
+    START Step 1: [Take Input] Read: Number of rows 
+    Step 2 : [Define] printNum =1, blankSpace, i, j. 
+    Step 3: Loop start from i = 0 to rows: 
+    Loop start from blankSpace = 1 to rows-i [for space between number]: 
+    print blankSpace " "
+	Loop end 
+	Loop start from j = 0 to i: 
+	[Check If Condition] if i or j equals 0
+	printNum = 1 
+	[Check Else Condition] 
+	printNum = printNum * (i - j + 1) / j;
+	print printNum 
+	Loop end 
+	Give one line space 
+	Loop end 
+	Stop
